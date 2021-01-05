@@ -1,0 +1,14 @@
+{
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "ruby.rubocop.configFilePath": "./.rubocop.yml",
+    "ruby.format": "rubocop",
+    "ruby.rubocop.onSave": true,
+    "ruby.rubocop.useBundler": true,
+    "[ruby]": {
+        "editor.defaultFormatter": "misogi.ruby-rubocop"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
+}

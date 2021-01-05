@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsBlog</title>
+    <title>Rails Blog</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,17 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+      <header class="header">
+        <h1>Rails Blog</h1>
+        <span><%= link_to 'New Post <i class="material-icons right">add</i>'.html_safe, new_post_path, class: "waves-effect waves-light btn" %></span>
+      </header>
+      <%= yield %>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <p>© Copyright <%= Time.current.year %> Rails Blog. All rights reserved</p>
+      </div>
+    </footer>
   </body>
 </html>

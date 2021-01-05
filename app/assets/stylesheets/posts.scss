@@ -1,0 +1,35 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.posts {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  border-top: 1px dashed #dedede;
+  border-bottom: 1px dashed #dedede;
+
+  &-item,
+  &-form {
+    margin-bottom: 50px;
+  }
+
+  &-title {
+    color: #333333;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    margin-top: 24px;
+  }
+  &-description {
+    font-size: 1rem;
+    line-height: 30px;
+    color: #848484;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    // font-family: "Merriweather", sans-serif;
+  }
+
+  &-content {
+    margin-bottom: 60px;
+  }
+}

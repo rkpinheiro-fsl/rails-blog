@@ -1,0 +1,8 @@
+<%= link_to 'Back <i class="material-icons left">arrow_back</i>'.html_safe, posts_path, class: "waves-effect waves-teal btn-flat" %>
+<%= link_to 'Show <i class="material-icons right">visibility</i>'.html_safe, @post, class: "waves-effect waves-teal btn-flat" %>
+
+<div class="posts-form">
+    <h2>New Post</h2>
+    <%= render 'form', post: @post %>
+</div>
+
