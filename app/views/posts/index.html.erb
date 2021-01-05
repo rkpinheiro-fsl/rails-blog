@@ -2,7 +2,7 @@
   <p id="notice"><%= notice %></p>
   <% @posts.each do |post| %>
     <div class="posts-item">
-      <h2 class="posts-title"><%= post.title %></h2>
+      <h2><%= link_to post.title, post, class: "posts-title" %></h2>
       <p class="posts-description"><%= post.description %></p>
       <div class="posts-actions">
         <span><%= link_to 'Read More <i class="material-icons right">arrow_forward</i>'.html_safe, post, class: "waves-effect waves-light btn" %></span>
