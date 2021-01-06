@@ -5,6 +5,7 @@
     "ruby.format": "rubocop",
     "ruby.rubocop.onSave": true,
     "ruby.rubocop.useBundler": true,
+    "ruby.intellisense": "rubyLocate",
     "[ruby]": {
         "editor.defaultFormatter": "misogi.ruby-rubocop"
     },
